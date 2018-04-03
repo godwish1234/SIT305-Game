@@ -26,8 +26,8 @@ class InventoryViewController: UITableViewController {
     //parsing with the json file
     func parseJSON(){
         
-        let path : String = Bundle.main.path(forResource: "jsonFile", ofType: "json") as String!
-        let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+        //let path : String = Bundle.main.path(forResource: "jsonFile", ofType: "json") as String!
+        //let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
         
         /*
         let jsonData = NSData(contentsOfFile: path) as NSData!
@@ -35,10 +35,10 @@ class InventoryViewController: UITableViewController {
         */
         
         
-        let jsonString = try? String(contentsOfFile: path, encoding: String.Encoding.utf8)
-        let json = JSON(parseJSON: jsonString!)
+        //let jsonString = try? String(contentsOfFile: path, encoding: String.Encoding.utf8)
+        //let json = JSON(parseJSON: jsonString!)
         
-        var Person = "Person"
+        //var Person = "Person"
         //var Name = readableJSON!["People"][Person]["Name"].string as String!
         
 
@@ -57,7 +57,7 @@ class InventoryViewController: UITableViewController {
         //NSLog("\(Name)")
         
         
-        
+        /*
         NumberofRows = json["People"].count
         
     
@@ -72,7 +72,32 @@ class InventoryViewController: UITableViewController {
             NamesArray.append(Name!)
             AgeArray.append(Age!)
             
+        }*/
+        
+        let path : String = Bundle.main.path(forResource: "jsonFile", ofType: "json") as String!
+        let data = NSData(contentsOfFile: path)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*nicho
+        let path = Bundle.main.path(forResource: "jsonFile", ofType: "json")
+        let url = URL(fileURLWithPath: path!)
+        
+        do{
+            let data = try Data(contentsOf: url)
+            let file = try JSONDecoder().decode([String :[Int]].self, from: data)
+            print(file)
         }
+        catch{
+            
+        }*/
+    
         
     }
 

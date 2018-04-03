@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>296019108841-834o2vh6tq87u9rpqma2hecgo7ecvea4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.296019108841-834o2vh6tq87u9rpqma2hecgo7ecvea4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFMHiCjpYz5y0OKmzmSEeztatqpbT6P28</string>
+	<key>GCM_SENDER_ID</key>
+	<string>296019108841</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>AdioxWorld.SIT305</string>
+	<key>PROJECT_ID</key>
+	<string>adioxworld</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:296019108841:ios:29ee7a047390d7df</string>
+	<key>DATABASE_URL</key>
+	<string>https://adioxworld.firebaseio.com</string>
+</dict>
+</plist>
