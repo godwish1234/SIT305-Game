@@ -20,11 +20,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+<<<<<<< HEAD
+       // effect = VisualEffectView.effect
+        // VisualEffectView.effect = nil
+=======
         effect = VisualEffectView.effect
         VisualEffectView.effect = nil
         
         parseJSON()
         
+>>>>>>> 6b9e2fb3e5f3b0b2fff9172443509584a5808ee2
     }
     
     func animateIn() {
@@ -36,7 +41,7 @@ class ViewController: UIViewController {
         
         UIView.animate(withDuration: 0.4){
             
-            self.VisualEffectView.effect = self.effect
+            //self.VisualEffectView.effect = self.effect
             self.MenuView.alpha = 1
             self.MenuView.transform = CGAffineTransform.identity
         }
@@ -46,7 +51,7 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 0.3, animations: {
             self.MenuView.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
             self.MenuView.alpha = 0
-            self.VisualEffectView.effect = nil
+            //self.VisualEffectView.effect = nil
         }) { (succes:Bool) in
             self.MenuView.removeFromSuperview()
         }
