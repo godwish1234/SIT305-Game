@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -21,6 +22,9 @@ class ViewController: UIViewController {
         
         effect = VisualEffectView.effect
         VisualEffectView.effect = nil
+        
+        parseJSON()
+        
     }
     
     func animateIn() {
@@ -47,6 +51,21 @@ class ViewController: UIViewController {
             self.MenuView.removeFromSuperview()
         }
     }
+    
+    //parsing with the json file
+    func parseJSON(){
+        
+        let bundle = Bundle.main
+        let path : String = bundle.path(forResource: "jsonFile", ofType: "json") as String!
+        let jsonString = try? String(contentsOfFile: path, encoding: String.Encoding.utf8)
+        let json = JSON(parseJSON: jsonString!)
+
+        var Name = json["People"]
+        
+        //NSLog("\(Name)")
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

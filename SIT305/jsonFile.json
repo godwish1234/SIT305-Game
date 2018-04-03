@@ -1,0 +1,45 @@
+{
+    "People" : {
+        "Person1" : {
+            "Name" : "Jared",
+            "Age" : "17"
+        },
+        
+        "Person2" : {
+            "Name" : "Ann",
+            "Age" : "32"
+        },
+        
+        "Person3" : {
+            "Name" : "John",
+            "Age" : "27"
+        },
+        
+        "Person4" : {
+            "Name" : "Mary",
+            "Age" : "18"
+        },
+        
+    }
+    
+}
+
+/*
+{
+    "person":[
+                  {
+                  "name": "Bob",
+                  "age": "16",
+                  "employed": "No"
+                  },
+                  {
+                  "name": "Vinny",
+                  "age": "56",
+                  "employed": "Yes"
+                  }
+              ]
+}
+ */
+
+/*
+{ \"people\": [{ \"firstName\": \"Paul\", \"lastName\": \"Hudson\", \"isAlive\": true }, { \"firstName\": \"Angela\", \"lastName\": \"Merkel\", \"isAlive\": true }, { \"firstName\": \"George\", \"lastName\": \"Washington\", \"isAlive\": false } ] }*/
