@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0897EFE5205EE0FCAAB39AF4 /* Pods_SIT305.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217BAD4D090AB0BF20E6B1C /* Pods_SIT305.framework */; };
+		0A081BAB2071B38C00EA6DE8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0A081BAA2071B38C00EA6DE8 /* Podfile */; };
+		0A081BAC2071B92700EA6DE8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */; };
+		0A081BAF2071C35B00EA6DE8 /* jsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A081BAE2071C35B00EA6DE8 /* jsonFile.json */; };
+		0A081BB12071CF1F00EA6DE8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */; };
+		0A081BB32071D06500EA6DE8 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */; };
 		0AC5591220649F0B008672AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC5591120649F0B008672AB /* AppDelegate.swift */; };
 		0AC5591420649F0B008672AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC5591320649F0B008672AB /* ViewController.swift */; };
 		0AC5591720649F0B008672AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC5591520649F0B008672AB /* Main.storyboard */; };
@@ -16,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A081BAA2071B38C00EA6DE8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A081BAE2071C35B00EA6DE8 /* jsonFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonFile.json; sourceTree = "<group>"; };
+		0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		0AC5590E20649F0B008672AB /* SIT305.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIT305.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC5591120649F0B008672AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AC5591320649F0B008672AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,9 @@
 		0AC5591B20649F0B008672AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AC5591E20649F0B008672AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AC5592020649F0B008672AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA0CA0F4E31EA8D24FC1998 /* Pods-SIT305.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIT305.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIT305/Pods-SIT305.release.xcconfig"; sourceTree = "<group>"; };
+		A6575D5A8B407E919B6E045B /* Pods-SIT305.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIT305.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIT305/Pods-SIT305.debug.xcconfig"; sourceTree = "<group>"; };
+		D217BAD4D090AB0BF20E6B1C /* Pods_SIT305.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SIT305.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A081BAC2071B92700EA6DE8 /* SwiftyJSON.framework in Frameworks */,
+				0897EFE5205EE0FCAAB39AF4 /* Pods_SIT305.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +56,11 @@
 		0AC5590520649F0B008672AB = {
 			isa = PBXGroup;
 			children = (
+				0A081BAA2071B38C00EA6DE8 /* Podfile */,
 				0AC5591020649F0B008672AB /* SIT305 */,
 				0AC5590F20649F0B008672AB /* Products */,
+				226ED5896F7460419C17577F /* Pods */,
+				5A60432A4AD2BC6FB29279CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,34 @@
 			children = (
 				0AC5591120649F0B008672AB /* AppDelegate.swift */,
 				0AC5591320649F0B008672AB /* ViewController.swift */,
+				0A081BAE2071C35B00EA6DE8 /* jsonFile.json */,
 				0AC5591520649F0B008672AB /* Main.storyboard */,
+				0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */,
+				0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */,
 				0AC5591B20649F0B008672AB /* Assets.xcassets */,
 				0AC5591D20649F0B008672AB /* LaunchScreen.storyboard */,
 				0AC5592020649F0B008672AB /* Info.plist */,
 				0AC5591820649F0B008672AB /* SIT305.xcdatamodeld */,
 			);
 			path = SIT305;
+			sourceTree = "<group>";
+		};
+		226ED5896F7460419C17577F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6575D5A8B407E919B6E045B /* Pods-SIT305.debug.xcconfig */,
+				9CA0CA0F4E31EA8D24FC1998 /* Pods-SIT305.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A60432A4AD2BC6FB29279CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */,
+				D217BAD4D090AB0BF20E6B1C /* Pods_SIT305.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AC5592320649F0B008672AB /* Build configuration list for PBXNativeTarget "SIT305" */;
 			buildPhases = (
+				86D89DBA26A56F1DD233D88B /* [CP] Check Pods Manifest.lock */,
 				0AC5590A20649F0B008672AB /* Sources */,
 				0AC5590B20649F0B008672AB /* Frameworks */,
 				0AC5590C20649F0B008672AB /* Resources */,
+				5380A3827E410957B4B12ACF /* [CP] Embed Pods Frameworks */,
+				099C371EB72A73D63D2FC3F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,18 +172,76 @@
 			files = (
 				0AC5591F20649F0B008672AB /* LaunchScreen.storyboard in Resources */,
 				0AC5591C20649F0B008672AB /* Assets.xcassets in Resources */,
+				0A081BAB2071B38C00EA6DE8 /* Podfile in Resources */,
 				0AC5591720649F0B008672AB /* Main.storyboard in Resources */,
+				0A081BAF2071C35B00EA6DE8 /* jsonFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		099C371EB72A73D63D2FC3F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIT305/Pods-SIT305-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5380A3827E410957B4B12ACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SIT305/Pods-SIT305-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIT305/Pods-SIT305-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D89DBA26A56F1DD233D88B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SIT305-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0AC5590A20649F0B008672AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A081BB12071CF1F00EA6DE8 /* GameViewController.swift in Sources */,
 				0AC5591420649F0B008672AB /* ViewController.swift in Sources */,
+				0A081BB32071D06500EA6DE8 /* InventoryViewController.swift in Sources */,
 				0AC5591A20649F0B008672AB /* SIT305.xcdatamodeld in Sources */,
 				0AC5591220649F0B008672AB /* AppDelegate.swift in Sources */,
 			);
@@ -263,6 +364,7 @@
 		};
 		0AC5592420649F0B008672AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6575D5A8B407E919B6E045B /* Pods-SIT305.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82PMC5VB39;
@@ -276,6 +378,7 @@
 		};
 		0AC5592520649F0B008672AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA0CA0F4E31EA8D24FC1998 /* Pods-SIT305.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82PMC5VB39;
