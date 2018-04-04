@@ -8,11 +8,12 @@
 
 import UIKit
 
-class InventoryViewController: UITableViewController {
+class InventoryViewController: ViewController, UICollectionViewDataSource {
 
-    var NumberofRows = 0
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    var NumberofItems = 0
     var NamesArray = [String]()
-    var AgeArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +26,9 @@ class InventoryViewController: UITableViewController {
     //parsing with the json file
     func parseJSON(){
         
-        let path : String = Bundle.main.path(forResource: "jsonFile", ofType: "json") as String!
+        collectionView.dataSource = self
+        
+        let path : String = Bundle.main.path(forResource: "items", ofType: "json") as String!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -34,22 +37,14 @@ class InventoryViewController: UITableViewController {
             //print(json)
             
             guard let array = json as? [Any] else {return}
-            NumberofRows = array.count
+            NumberofItems = array.count
             
-            for user in array {
+            for items in array {
                 
-                guard let userDict = user as? [String: Any] else {return}
-                guard let userID = userDict["id"] as? Int else {print("not an Int"); return}
+                guard let userDict = items as? [String: Any] else {return}
+                //guard let ID = userDict["id"] as? Int else {print("not an Int"); return}
                 guard let name = userDict["name"] as? String else {return}
-                guard let company = userDict["company"] as? [String:String] else {return}
-                guard let companyName = company["name"] else {return}
                 
-                /*
-                print(userID)
-                print(name)
-                print(company)
-                print(companyName)
-                */
 
                 NamesArray.append(name)
             }
@@ -60,23 +55,18 @@ class InventoryViewController: UITableViewController {
         }
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return NumberofRows
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return NumberofItems
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! UITableViewCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! InventoryCollectionViewCell
         
         if NamesArray.count != 0 {
-            cell.textLabel?.text = NamesArray[indexPath.row]
+            cell.text.text = NamesArray[indexPath.row]
         }
-
+        
         return cell
     }
 
