@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -20,16 +19,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-<<<<<<< HEAD
-       // effect = VisualEffectView.effect
+        // effect = VisualEffectView.effect
         // VisualEffectView.effect = nil
-=======
-        effect = VisualEffectView.effect
-        VisualEffectView.effect = nil
+
+        //effect = VisualEffectView.effect
+        //VisualEffectView.effect = nil
         
-        parseJSON()
-        
->>>>>>> 6b9e2fb3e5f3b0b2fff9172443509584a5808ee2
+        //parseJSON()
     }
     
     func animateIn() {
@@ -57,7 +53,8 @@ class ViewController: UIViewController {
         }
     }
     
-    //parsing with the json file
+    
+    /*parsing with the json file
     func parseJSON(){
         
         let bundle = Bundle.main
@@ -69,7 +66,7 @@ class ViewController: UIViewController {
         
         //NSLog("\(Name)")
         
-    }
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
