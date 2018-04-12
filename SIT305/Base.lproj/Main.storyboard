@@ -118,6 +118,7 @@
                                     <segue destination="Fy8-EM-2ft" kind="show" id="lHn-35-0n8"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9E-B7-hhU">
                                 <rect key="frame" x="300" y="163" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -125,6 +126,14 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="Booster:" destination="1hi-fS-HpA" eventType="touchUpInside" id="oho-ar-6l0"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ld-Af-iv7">
+                                <rect key="frame" x="545" y="241" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="save"/>
+                                <connections>
+                                    <action selector="save:" destination="1hi-fS-HpA" eventType="touchUpInside" id="er9-zL-BtG"/>
+>>>>>>> f28d627bf1b71e16c1523edba2451d0b94595b41
                                 </connections>
                             </button>
                         </subviews>
