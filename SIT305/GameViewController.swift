@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import Foundation
 
 class GameViewController: UIViewController {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     let jsonString = "[" +
@@ -30,6 +30,8 @@ class GameViewController: UIViewController {
     
     
 >>>>>>> parent of a62a4ad... 10th commit
+=======
+>>>>>>> parent of f28d627... 9th Commit
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,6 +43,7 @@ class GameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
     @IBAction func Booster(_ sender: UIButton) {
         
@@ -213,6 +216,9 @@ class GameViewController: UIViewController {
     
     
 >>>>>>> parent of a62a4ad... 10th commit
+=======
+
+>>>>>>> parent of f28d627... 9th Commit
     /*
     // MARK: - Navigation
 
