@@ -20,11 +20,16 @@ class GameViewController: UIViewController {
     " ]"
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f28d627bf1b71e16c1523edba2451d0b94595b41
     
     
 >>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
+=======
+    
+    
+>>>>>>> parent of a62a4ad... 10th commit
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -80,6 +85,66 @@ class GameViewController: UIViewController {
 =======
     @IBAction func save(_ sender: UIButton) {
         
+        /*
+        let dataFromString: Data? = jsonString.data(using: String.Encoding.utf8)
+        
+        guard let data = dataFromString else {
+            print("error")
+            return
+        }
+        
+        do {
+            let parsedData = try JSONSerialization.jsonObject(with: data, options: []) as! [[String:Any]]
+        } catch let error {
+            print(error)
+        }
+        */
+        
+        /*
+        let fileName = "item"
+        
+        let file: FileHandle? = FileHandle(forWritingAtPath: "items.json")
+        if file != nil {
+            do {
+                if let jsonData = try JSONSerialization.data(withJSONObject: fileName, options: .init(rawValue: 0)) as? Data
+                {
+                    print(NSString(data: jsonData, encoding: 1)!)
+                    file?.write(jsonData)
+                }
+            }
+            catch {
+                
+            }
+            file?.closeFile()
+        }
+        else{
+            print("something went wrong")
+        }
+ */
+        
+        /*
+        let file = "items"
+        
+        
+        
+        let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+        
+        
+        if let fileURL = dir?.appendingPathComponent(file).appendingPathExtension("json"){
+        
+            
+            
+            var inString = ""
+            do {
+                inString = try String(contentsOf: fileURL)
+            } catch {
+                print("Failed reading from URL: \(fileURL), Error: " + error.localizedDescription)
+            }
+            print("Read from the file: \(inString)")
+            
+        
+        }*/
+        
         var test: [AnyObject] = []
         var dict: [String: AnyObject] = [:]
         dict["id"] = "8" as AnyObject
@@ -93,10 +158,28 @@ class GameViewController: UIViewController {
             //print(jsonURL)
             
             //try jsonData.write(to: jsonURL)
+            
+            
+            
         }
         catch{
             
         }
+        
+        /*
+        do {
+            
+            let fileManager = FileManager.default
+            let url = try fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
+            let jsonURL = url.appendingPathComponent("items.json")
+            let data = try Data(contentsOf: url)
+            let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+            print(json)
+            
+        }
+        catch {
+            print(error)
+        }*/
         
         var inString = ""
         
@@ -117,6 +200,7 @@ class GameViewController: UIViewController {
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -125,6 +209,10 @@ class GameViewController: UIViewController {
     
 >>>>>>> f28d627bf1b71e16c1523edba2451d0b94595b41
 >>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
+=======
+    
+    
+>>>>>>> parent of a62a4ad... 10th commit
     /*
     // MARK: - Navigation
 

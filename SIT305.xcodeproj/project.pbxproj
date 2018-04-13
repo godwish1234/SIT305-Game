@@ -12,7 +12,6 @@
 		0A081BAC2071B92700EA6DE8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		0A081BB12071CF1F00EA6DE8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */; };
 		0A081BB32071D06500EA6DE8 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */; };
-		0A4AAB83207D862C005FFC3F /* itemFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4AAB82207D862C005FFC3F /* itemFunctions.swift */; };
 		0AA9439E2073327400C2621F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9439D2073327400C2621F /* GoogleService-Info.plist */; };
 		0AB4035B20749A5800E5C8A8 /* InventoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4035A20749A5800E5C8A8 /* InventoryCollectionViewCell.swift */; };
 		0AB4035D2074A43C00E5C8A8 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AB4035C2074A43C00E5C8A8 /* items.json */; };
@@ -31,7 +30,6 @@
 		0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
-		0A4AAB82207D862C005FFC3F /* itemFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemFunctions.swift; sourceTree = "<group>"; };
 		0AA9439D2073327400C2621F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0AB4035A20749A5800E5C8A8 /* InventoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		0AB4035C2074A43C00E5C8A8 /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
@@ -89,9 +87,12 @@
 				0AC5591320649F0B008672AB /* ViewController.swift */,
 <<<<<<< HEAD
 				0A081BAE2071C35B00EA6DE8 /* jsonFile.json */,
+<<<<<<< HEAD
 				0A4AAB82207D862C005FFC3F /* itemFunctions.swift */,
 =======
 >>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
+=======
+>>>>>>> parent of a62a4ad... 10th commit
 				0AB4035C2074A43C00E5C8A8 /* items.json */,
 				0AC5591520649F0B008672AB /* Main.storyboard */,
 				CD86F335207B526E0066979B /* ItemList.plist */,
@@ -266,7 +267,6 @@
 				0AC5591420649F0B008672AB /* ViewController.swift in Sources */,
 				0A081BB32071D06500EA6DE8 /* InventoryViewController.swift in Sources */,
 				0AB4035B20749A5800E5C8A8 /* InventoryCollectionViewCell.swift in Sources */,
-				0A4AAB83207D862C005FFC3F /* itemFunctions.swift in Sources */,
 				0AC5591A20649F0B008672AB /* SIT305.xcdatamodeld in Sources */,
 				0AC5591220649F0B008672AB /* AppDelegate.swift in Sources */,
 			);

@@ -1,61 +1,45 @@
 [
  {
-     "id": 1,
-     "itemName": "Booster",
-     "type": "consumables",
-     "description": "Stamina regeneration!",
-     "baseValue": "3",
+ "id": 1,
+ "name": "Booster",
+ "quantity": 4,
  },
  
  {
-     "id": 2,
-     "itemName": "Water",
-     "type": "consumables",
-     "description": "A fresh water exists?",
-     "baseValue": "1",
+ "id": 2,
+ "name": "Wood",
+ "quantity": 2,
  },
  
  {
-     "id": 3,
-     "itemName": "Wood",
-     "type": "materials",
-     "description": "Wood Peck-a-doo!",
+ "id": 3,
+ "name": "Assault Rifle",
+ "quantity": 1,
  },
  
  {
-     "id": 4,
-     "itemName": "Handgun",
-     "type": "weapon",
-     "description": "Zombies in the head!",
-     "baseValue": "4",
+ "id": 4,
+ "name": "Handgun",
+ "quantity": 1,
  },
  
  {
-     "id": 5,
-     "itemName": "Knife",
-     "type": "weapon",
-     "description": "Murder it.",
-     "baseValue": "1",
+ "id": 5,
+ "name": "Wooden Key",
+ "quantity": 1,
  },
  
  {
-     "id": 6,
-     "itemName": "Wooden Key",
-     "type": "keyItem",
-     "description": "What could this do?~",
+ "id": 6,
+ "name": "Artifact",
+ "quantity": 1,
  },
  
  {
-     "id": 7,
-     "itemName": "Artifact",
-     "type": "keyItem",
-     "description": "Sure thing a gold mine",
+ "id": 7,
+ "name": "Dusty box",
+ "quantity": 2,
  },
  
- {
-     "id": 8,
-     "itemName": "Dusty box",
-     "type": "keyItem",
-     "description": "Ugh!, what box is this?",
- },
+ 
 ]

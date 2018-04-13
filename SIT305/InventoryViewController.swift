@@ -22,6 +22,7 @@ class InventoryViewController: ViewController, UICollectionViewDataSource {
         
     }
     
+    
     //parsing with the json file
     func parseJSON(){
         
@@ -42,8 +43,9 @@ class InventoryViewController: ViewController, UICollectionViewDataSource {
                 
                 guard let userDict = items as? [String: Any] else {return}
                 //guard let ID = userDict["id"] as? Int else {print("not an Int"); return}
-                guard let name = userDict["itemName"] as? String else {return}
+                guard let name = userDict["name"] as? String else {return}
                 
+
                 NamesArray.append(name)
             }
             
