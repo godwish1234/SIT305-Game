@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		0897EFE5205EE0FCAAB39AF4 /* Pods_SIT305.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217BAD4D090AB0BF20E6B1C /* Pods_SIT305.framework */; };
 		0A081BAB2071B38C00EA6DE8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0A081BAA2071B38C00EA6DE8 /* Podfile */; };
-		0A081BAC2071B92700EA6DE8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */; };
-		0A081BAF2071C35B00EA6DE8 /* jsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A081BAE2071C35B00EA6DE8 /* jsonFile.json */; };
+		0A081BAC2071B92700EA6DE8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		0A081BB12071CF1F00EA6DE8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */; };
 		0A081BB32071D06500EA6DE8 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */; };
 		0A4AAB83207D862C005FFC3F /* itemFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4AAB82207D862C005FFC3F /* itemFunctions.swift */; };
@@ -23,12 +22,13 @@
 		0AC5591A20649F0B008672AB /* SIT305.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AC5591820649F0B008672AB /* SIT305.xcdatamodeld */; };
 		0AC5591C20649F0B008672AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC5591B20649F0B008672AB /* Assets.xcassets */; };
 		0AC5591F20649F0B008672AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC5591D20649F0B008672AB /* LaunchScreen.storyboard */; };
+		CD86F336207B526E0066979B /* ItemList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD86F335207B526E0066979B /* ItemList.plist */; };
+		CD86F339207B531E0066979B /* Items.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD86F338207B531E0066979B /* Items.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A081BAA2071B38C00EA6DE8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A081BAD2071B92700EA6DE8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A081BAE2071C35B00EA6DE8 /* jsonFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonFile.json; sourceTree = "<group>"; };
 		0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		0A4AAB82207D862C005FFC3F /* itemFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemFunctions.swift; sourceTree = "<group>"; };
@@ -45,6 +45,8 @@
 		0AC5592020649F0B008672AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA0CA0F4E31EA8D24FC1998 /* Pods-SIT305.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIT305.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIT305/Pods-SIT305.release.xcconfig"; sourceTree = "<group>"; };
 		A6575D5A8B407E919B6E045B /* Pods-SIT305.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIT305.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIT305/Pods-SIT305.debug.xcconfig"; sourceTree = "<group>"; };
+		CD86F335207B526E0066979B /* ItemList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ItemList.plist; sourceTree = "<group>"; };
+		CD86F338207B531E0066979B /* Items.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Items.txt; sourceTree = "<group>"; };
 		D217BAD4D090AB0BF20E6B1C /* Pods_SIT305.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SIT305.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,10 +87,14 @@
 			children = (
 				0AC5591120649F0B008672AB /* AppDelegate.swift */,
 				0AC5591320649F0B008672AB /* ViewController.swift */,
+<<<<<<< HEAD
 				0A081BAE2071C35B00EA6DE8 /* jsonFile.json */,
 				0A4AAB82207D862C005FFC3F /* itemFunctions.swift */,
+=======
+>>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
 				0AB4035C2074A43C00E5C8A8 /* items.json */,
 				0AC5591520649F0B008672AB /* Main.storyboard */,
+				CD86F335207B526E0066979B /* ItemList.plist */,
 				0A081BB02071CF1F00EA6DE8 /* GameViewController.swift */,
 				0A081BB22071D06500EA6DE8 /* InventoryViewController.swift */,
 				0AB4035A20749A5800E5C8A8 /* InventoryCollectionViewCell.swift */,
@@ -97,6 +103,7 @@
 				0AC5592020649F0B008672AB /* Info.plist */,
 				0AC5591820649F0B008672AB /* SIT305.xcdatamodeld */,
 				0AA9439D2073327400C2621F /* GoogleService-Info.plist */,
+				CD86F338207B531E0066979B /* Items.txt */,
 			);
 			path = SIT305;
 			sourceTree = "<group>";
@@ -184,11 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC5591F20649F0B008672AB /* LaunchScreen.storyboard in Resources */,
+				CD86F339207B531E0066979B /* Items.txt in Resources */,
 				0AC5591C20649F0B008672AB /* Assets.xcassets in Resources */,
 				0AB4035D2074A43C00E5C8A8 /* items.json in Resources */,
+				CD86F336207B526E0066979B /* ItemList.plist in Resources */,
 				0A081BAB2071B38C00EA6DE8 /* Podfile in Resources */,
 				0AC5591720649F0B008672AB /* Main.storyboard in Resources */,
-				0A081BAF2071C35B00EA6DE8 /* jsonFile.json in Resources */,
 				0AA9439E2073327400C2621F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
