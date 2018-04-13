@@ -7,20 +7,45 @@
 //
 
 import UIKit
-import Foundation
 
 class GameViewController: UIViewController {
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 175ee6910d52c41c4be1d0055c234dfd5f604ea9
     let jsonString = "[" +
         "{" +
     "   \"id\":\"8\"" +
     "}" +
     " ]"
+<<<<<<< HEAD
 
 
 
 
+=======
+    
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f28d627bf1b71e16c1523edba2451d0b94595b41
+    
+    
+>>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
+=======
+    
+    
+>>>>>>> parent of a62a4ad... 10th commit
+=======
+>>>>>>> parent of f28d627... 9th Commit
+=======
+>>>>>>> parent of f28d627... 9th Commit
+>>>>>>> 175ee6910d52c41c4be1d0055c234dfd5f604ea9
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,8 +56,15 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+<<<<<<< HEAD
 
 
+=======
+    
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 175ee6910d52c41c4be1d0055c234dfd5f604ea9
     @IBAction func Booster(_ sender: UIButton) {
 
 
@@ -189,8 +221,32 @@ class GameViewController: UIViewController {
 
 
     }
+<<<<<<< HEAD
 
 
+=======
+    
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> f28d627bf1b71e16c1523edba2451d0b94595b41
+>>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
+=======
+    
+    
+>>>>>>> parent of a62a4ad... 10th commit
+=======
+
+>>>>>>> parent of f28d627... 9th Commit
+=======
+
+>>>>>>> parent of f28d627... 9th Commit
+>>>>>>> 175ee6910d52c41c4be1d0055c234dfd5f604ea9
     /*
     // MARK: - Navigation
 

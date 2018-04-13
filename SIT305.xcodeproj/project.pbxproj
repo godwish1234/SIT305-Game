@@ -85,6 +85,14 @@
 			children = (
 				0AC5591120649F0B008672AB /* AppDelegate.swift */,
 				0AC5591320649F0B008672AB /* ViewController.swift */,
+<<<<<<< HEAD
+				0A081BAE2071C35B00EA6DE8 /* jsonFile.json */,
+<<<<<<< HEAD
+				0A4AAB82207D862C005FFC3F /* itemFunctions.swift */,
+=======
+>>>>>>> 650900b962b20cbb0927b4d5bfffc6d67c29a938
+=======
+>>>>>>> parent of a62a4ad... 10th commit
 				0AB4035C2074A43C00E5C8A8 /* items.json */,
 				0AC5591520649F0B008672AB /* Main.storyboard */,
 				CD86F335207B526E0066979B /* ItemList.plist */,

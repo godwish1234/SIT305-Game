@@ -119,6 +119,8 @@
                                 </connections>
                             </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9E-B7-hhU">
                                 <rect key="frame" x="300" y="163" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,6 +138,10 @@
 >>>>>>> f28d627bf1b71e16c1523edba2451d0b94595b41
                                 </connections>
                             </button>
+=======
+>>>>>>> parent of f28d627... 9th Commit
+=======
+>>>>>>> parent of f28d627... 9th Commit
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
